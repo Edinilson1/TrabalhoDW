@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.div1 {
+    width: 100vw;
+    height: 17vh;
+    background-color: rgb(223, 59, 114);
+    font-family: 'FonteDeAssinatura', sans-serif;
+    font-size: 20vh;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'FonteDeAssinatura';
+    src: url('./assets/better_together_3/Better\ Together.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.div2 {
+    width: 100vw;
+    height: 83vh;
+    display: flex;
+    padding: 15px;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.div3 {
+    width: calc(20vw / 1.1);
+    height: calc(80vh / 1.1);
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+.div3:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 1);
+}
+
+.div3 .imagem {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.cortado {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.cortado, .sublinhado {
+    display: block;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.caminhao {
+    width: 3vw;
+    height: 5vh;
+    padding: 5px;
+}
+
+.frete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 2vh;
+}
