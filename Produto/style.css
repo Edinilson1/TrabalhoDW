@@ -3,3 +3,85 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+.parterosa{
+    width: 100vw;
+    height: 17vh;
+    background-color: rgb(223, 59, 114);
+    font-size: 20vh;
+    text-align: center;
+    font-family: 'FonteDeAssinatura';
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+.div2{
+    display: flex;
+    padding: 15px;
+    height: 83vh;
+    width: 100vw;
+    gap: 20px;
+}
+
+@font-face {
+    font-family: 'FonteDeAssinatura';
+    src: url('../PaginaPrincipal/assets/better_together_3/Better\ Together.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../PaginaPrincipal/assets/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img{
+    height: 70vh;
+    width:30vw;
+    padding: 10px;
+}
+
+.cortado{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.essencias {
+    color: rgb(199, 8, 126);
+    padding-top: 1vh;
+}
+
+.comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 12vw;
+    height: 8vh;
+    background-color: rgb(216, 23, 158);
+    cursor: pointer;
+}
+
+.botao {
+    display: flex;
+    justify-content: space-between;
+}
