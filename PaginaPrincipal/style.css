@@ -33,19 +33,20 @@ body {
 }
 
 .div2 {
+    display: flex;
+    justify-content: center;
     width: 100vw;
     height: 83vh;
     display: flex;
     padding: 15px;
-    gap: 5px;
-    justify-content: space-between;
+    gap: 5vw;
     align-items: center;
     
 }
 
 .div3 {
     width: calc(20vw / 1.1);
-    height: calc(80vh / 1.1);
+    height: calc(70vh / 1.1);
     background-color: white;
     border-radius: 10px;
     cursor: pointer;
