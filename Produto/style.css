@@ -63,9 +63,10 @@ img{
 .texto {
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
 
-.essencias {
+.rosa {
     color: rgb(199, 8, 126);
     padding-top: 1vh;
 }
@@ -84,4 +85,22 @@ img{
 .botao {
     display: flex;
     justify-content: space-between;
+}
+
+.caixa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.estrela {
+    width: 30vw;
+    height: 15vh;
+}
+
+.caixaessencias {
+    width: 30vw;
+}
+
+.perfume {
+    width: 60vw;
 }
